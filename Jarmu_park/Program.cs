@@ -30,7 +30,12 @@ namespace Jarmu_park
             lada.Megy(km);
             trabant.Megy(kmm);
 
-            lada.Allapot();
+
+
+
+            Console.WriteLine($" Maradt: {lada.UZEMANYAG} l, {lada.MEGTEHETO} km");
+
+            //lada.Allapot();
             trabant.Allapot();
 
             
